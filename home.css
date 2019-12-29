@@ -1,0 +1,211 @@
+
+
+	header {
+    background-color: red;
+    height: 90px;
+    width=100%;
+    color: black;
+    text-align: right;
+    font-size: 50px;
+    
+  }
+
+
+
+    h2{
+    	font:50px;
+    	color:red;
+    }
+  .cointainer{
+  	width:1100ss;
+  	overflow: hidden;
+  }
+  
+  .slider{
+  	
+  	overflow:hidden;
+  }
+  .slider figure{
+  	width:3450;
+  	position:relative;
+    margin:0;
+  	left:0;
+  	animation: 120s slider infinite;
+
+  }
+  .slider figure img{
+  	float: left;
+  	width: 20%;
+
+  }
+  
+
+@keyframes slider{
+	0%
+	{
+		left: 0px;
+
+	}
+	20%
+	{
+       left:0px;
+	}
+	25%
+	{
+       left:-1500px;
+	}
+	45%
+	{
+		 left:-1150px;
+	}
+	50%
+	{
+		 left:-2300px;
+	}
+	70%
+	{
+		left:-2300px;
+
+	}
+	75%
+	{
+		left:3450px;
+	}
+	90%
+	{
+		left:3450px;
+	}
+}
+
+
+
+	.menu {
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+
+  }
+
+  .menu a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+  }
+  footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: black;
+    display:block;
+    color:red;
+    
+  }
+  .inner-footer
+  {
+  	width:100%;
+  	margin:auto;
+  	padding:30px 10px;
+  	display:flex;
+  	flex-wrap:wrap;
+  	box-sizing: border-box;
+  	justify-content: center;
+  }
+
+
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+
+
+.footer-items p {
+	color: grey;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+
+
+
+
+ul {
+	list-style: none;
+	color:red;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color: red;
+}
+
+ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	transition: 0.3s;
+}
+
+.social-media i:hover {
+	background: red;
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: black;
+	color: #fff;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1085px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer-items {
+		width: 100%;
+	}
+}
