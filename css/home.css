@@ -1,108 +1,218 @@
 
 
 	header {
-    background-color: red;
+    background-color: rgb(255,0,0,0.5);
     height: 90px;
     width=100%;
     color: black;
     text-align: right;
     font-size: 50px;
+    padding: 0px;
+    font-family: cursive;
     
   }
-
-
+  body{
+     background-image: url('https://cdn.pixabay.com/photo/2016/12/17/18/51/salt-1914130_960_720.jpg');
+  	 background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
     h2{
     	font:50px;
     	color:red;
     }
-  .cointainer{
-  	width:1100ss;
-  	overflow: hidden;
-  }
-  
-  .slider{
-  	
-  	overflow:hidden;
-  }
-  .slider figure{
-  	width:3450;
-  	position:relative;
-    margin:0;
-  	left:0;
-  	animation: 120s slider infinite;
 
-  }
-  .slider figure img{
-  	float: left;
-  	width: 20%;
 
+  .maindiv{
+  background-color:rgb(0,0,0,0.6);
+  width:100%;
+  height:710px;
+ 
+}
+ .secdiv
+ {
+ width:90%;
+height:590px;
+background-size: cover;
+ animation : slider 50s infinite linear;
+ margin: 0 auto;
+ padding:50px;
+
+
+    
   }
-  
+ 
 
 @keyframes slider{
-	0%
-	{
-		left: 0px;
+   0%
+   {
+    background-image :url('https://cdn.pixabay.com/photo/2016/08/30/17/45/spice-1631562__340.jpg');
+    
+  }
+   20%
+  {
+    background-image:url('https://cdn.pixabay.com/photo/2014/11/22/19/41/spices-541974_960_720.jpg');
+  }
+  40%{
+    background-image:url('https://cdn.pixabay.com/photo/2015/03/10/13/15/spices-667115_960_720.jpg');
 
-	}
-	20%
-	{
-       left:0px;
-	}
-	25%
-	{
-       left:-1500px;
-	}
-	45%
-	{
-		 left:-1150px;
-	}
-	50%
-	{
-		 left:-2300px;
-	}
-	70%
-	{
-		left:-2300px;
+  }
+  65%
+  {
+    background-image: url('https://cdn.pixabay.com/photo/2018/12/08/19/47/spices-3863869_960_720.jpg');
+  }
+  80%
+  {
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/28/11/53/spices-2105541_960_720.jpg');
+  }
+  100%
+  {
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/27/14/31/masala-1482623__340.jpg');
+  }
+ 
+ 
 
-	}
-	75%
-	{
-		left:3450px;
-	}
-	90%
-	{
-		left:3450px;
-	}
+ }
+ .space{
+  height:100px;
+  opacity: 0px;
+ }
+
+.main2
+{
+  height:500px;
+  width:100%;
+  background-color: rgb(255,255,255,0.5);
+}
+.maintext
+
+{
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline  red;
+  margin-top: 10px;
+  color: rgb(0,0,0,1);
 }
 
 
+/*
+ .slider{
+  background-color:rgb(0,0,0,0.4);
+  width:500%;
+  height:500px;
+  
+}
+.sliderchild
+{
+  height:500px;
+  width:500%;
+  background-color: rgb(0,0,0,0.4);
+
+}
+.imagecon{
+  height:500px;
+  width:20%;
+  float: left;
+
+  box-shadow:1px 2px 8px 8px red ;
+    animation : slider 120s infinite linear;
+    animation-delay:3s;
+}
+  
+/* .imagecon
+ {
+  width:80%;
+  height:300px;
+  top:270px;
+  left:180px;
+  right:100px;
+  position:absolute;
+  background-size: 100% 100%;
+  box-shadow:1px 2px 8px 8px red ;
+  animation : slider 120s infinite linear;
+  animation-delay:3s;
+  }
+ */
+/*
+
+  .imagecon:nth-child(1)
+ {
+  background-image: :url('https://cdn.pixabay.com/photo/2017/07/28/13/29/spices-2548653_960_720.jpg');
+  background-repeat: no-repeat;
+  backkground-size:100% 100%;
+ }
+  .imagecon:nth-child(2)
+ {
+  background-image: :url('https://cdn.pixabay.com/photo/2014/06/16/23/10/spice-370114_960_720.jpg');
+  background-repeat: no-repeat;
+  backkground-size:100% 100%;
+ }
+ .imagecon:nth-child(3)
+ {
+  background-image: :url('https://cdn.pixabay.com/photo/2017/02/28/11/53/spices-2105541_960_720.jpg');
+  background-repeat: no-repeat;
+  backkground-size:100% 100%;
+ }
+ .imagecon:nth-child(4)
+ {
+  background-image: :url('https://cdn.pixabay.com/photo/2014/11/22/19/41/spices-541974_960_720.jpg');
+  background-repeat: no-repeat;
+  backkground-size:100% 100%;
+ }
+*/
+ .about{
+  text-orientation: center;
+  font-size: 30px;
+ color:rgb(0,0,0,1);
+ font-family: cursive;
+ margin-top: :10px;
+}
+  	
+.products{
+  background-color: rgb(255,0,0,0.5);
+  width: 100%;
+  height:600px;
+}
+.aboutheader
+{
+  height:100px;
+  width:100%;
+  background-color: rgb(255,0,0,0.5);
+}
+  
 
 	.menu {
     position: sticky;
     top: 0;
-    background-color:black;
+    background-color:transparent;
     padding: 10px 0px 10px 0px;
     color: white;
     margin: 0 auto;
     overflow: hidden;
-
+ 
   }
 
   .menu a {
     float: left;
-    color: red;
-    text-align: center;
+    color: rgb(0,0,0,1);
+  font-family: cursive;
+  font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+    transition: 0.4s;
 
+  }
+
+  .menu :hover{
+    background:rgb(0,0,0,0.2);
   }
   footer {
     width: 100%;
     bottom: 0px;
-    background-color: black;
+    background-color:rgb(0,0,0,0.9);
     display:block;
     color:red;
     
@@ -150,7 +260,7 @@ ul a {
 	text-decoration: none;
 	outline: none;
 	color: #fff;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 ul a:hover {
@@ -196,6 +306,7 @@ li i {
 	background: black;
 	color: #fff;
 	font-size: 12px;
+
 }
 
 @media screen and (max-width: 1085px) {
@@ -208,4 +319,16 @@ li i {
 	.footer-items {
 		width: 100%;
 	}
+}
+
+@media screen and (max-width: 1085px) {
+  .slider {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    width: 100%;
+  }
 }
