@@ -1,6 +1,4 @@
-
-
-	header {
+header {
     background-color: rgb(255,0,0,0.5);
     height: 90px;
     width=100%;
@@ -11,37 +9,31 @@
     font-family: cursive;
     
   }
-  body{
+body{
      background-image: url('https://cdn.pixabay.com/photo/2016/12/17/18/51/salt-1914130_960_720.jpg');
-  	 background-attachment:fixed;
+     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-    h2{
+h2{
     	font:50px;
     	color:red;
     }
-
-
-  .maindiv{
+.maindiv{
   background-color:rgb(0,0,0,0.6);
   width:100%;
   height:710px;
  
 }
- .secdiv
+.secdiv
  {
  width:90%;
-height:590px;
-background-size: cover;
+ height:590px;
+ background-size: cover;
  animation : slider 50s infinite linear;
  margin: 0 auto;
  padding:50px;
-
-
-    
-  }
+}
  
 
 @keyframes slider{
@@ -58,7 +50,7 @@ background-size: cover;
     background-image:url('https://cdn.pixabay.com/photo/2015/03/10/13/15/spices-667115_960_720.jpg');
 
   }
-  65%
+  60%
   {
     background-image: url('https://cdn.pixabay.com/photo/2018/12/08/19/47/spices-3863869_960_720.jpg');
   }
@@ -70,9 +62,6 @@ background-size: cover;
   {
     background-image: url('https://cdn.pixabay.com/photo/2016/06/27/14/31/masala-1482623__340.jpg');
   }
- 
- 
-
  }
  .space{
   height:100px;
