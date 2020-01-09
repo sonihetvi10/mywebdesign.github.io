@@ -6,34 +6,41 @@ header {
     text-align: right;
     font-size: 50px;
     padding: 0px;
-    font-family: cursive;
+    font-family: Helvetica Narrow, sans-serif;
+    font-weight: bold;
     
   }
-body{
+  body{
      background-image: url('https://cdn.pixabay.com/photo/2016/12/17/18/51/salt-1914130_960_720.jpg');
-     background-attachment:fixed;
-    background-repeat: repeat;
+  	 background-attachment:fixed;
+    background-repeat: no-repeat;
     background-size: cover;
   }
-h2{
+
+    h2{
     	font:50px;
     	color:red;
     }
-.maindiv{
+
+
+  .maindiv{
   background-color:rgb(0,0,0,0.6);
   width:100%;
   height:710px;
  
 }
-.secdiv
+ .secdiv
  {
  width:90%;
- height:590px;
- background-size: cover;
+height:600px;
+background-size: cover;
  animation : slider 50s infinite linear;
  margin: 0 auto;
  padding:50px;
-}
+
+
+    
+  }
  
 
 @keyframes slider{
@@ -50,7 +57,7 @@ h2{
     background-image:url('https://cdn.pixabay.com/photo/2015/03/10/13/15/spices-667115_960_720.jpg');
 
   }
-  60%
+  65%
   {
     background-image: url('https://cdn.pixabay.com/photo/2018/12/08/19/47/spices-3863869_960_720.jpg');
   }
@@ -62,8 +69,11 @@ h2{
   {
     background-image: url('https://cdn.pixabay.com/photo/2016/06/27/14/31/masala-1482623__340.jpg');
   }
- }
- .space{
+}
+ 
+ 
+
+  .space{
   height:100px;
   opacity: 0px;
  }
@@ -72,13 +82,13 @@ h2{
 {
   height:500px;
   width:100%;
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(255,255,255,0.8);
 }
 .maintext
 
 {
   font-size: 60px;
-  font-family: cursive;
+  font-family: Times New Roman, serif;
   text-align: center;
   text-decoration: underline  red;
   margin-top: 10px;
@@ -155,12 +165,13 @@ h2{
   text-orientation: center;
   font-size: 30px;
  color:rgb(0,0,0,1);
- font-family: cursive;
+ font-family: Times New Roman, serif;
  margin-top: :10px;
+
 }
   	
 .products{
-  background-color: rgb(255,0,0,0.5);
+  background-color: rgb(255,255,255,0.8);
   width: 100%;
   height:600px;
 }
@@ -168,7 +179,7 @@ h2{
 {
   height:100px;
   width:100%;
-  background-color: rgb(255,0,0,0.5);
+  background-color: rgb(255,0,0,0.8);
 }
   
 
@@ -186,24 +197,25 @@ h2{
   .menu a {
     float: left;
     color: rgb(0,0,0,1);
-  font-family: cursive;
+  font-family: Times New Roman, serif;
   font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     transition: 0.4s;
+    align-content: cemter;
 
   }
 
   .menu :hover{
     background:rgb(0,0,0,0.2);
   }
-footer {
+  footer {
     width: 100%;
     bottom: 0px;
     background-color:rgb(0,0,0,0.9);
     display:block;
-    color:red;
+    color:white;
     
   }
   .inner-footer
@@ -240,7 +252,7 @@ footer {
 
 ul {
 	list-style: none;
-	color:red;
+	color:white;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 }
@@ -309,6 +321,7 @@ li i {
 		width: 100%;
 	}
 }
+
 @media screen and (max-width: 1085px) {
   .slider {
     width: 50%;
@@ -320,6 +333,49 @@ li i {
     width: 100%;
   }
 }
+@media screen and (max-width: 1085px) {
+  .about {
+    font-size: 30px;
+  }
+}@media screen and (max-width: 600px) {
+  .about {
+    font-size: 20px;
+  }
+}
+/*
+@media screen and (max-width: 1085px) {
+  .secdiv {
+    width: 90%;
+    background-size: cover;
+    margin: 0 auto;
+ padding:50px;
 
 
-    
+  }
+}@media screen and (max-width: 600px) {
+  .secdiv {
+    width:70%;
+    background-size: :cover;
+    margin: 0 auto;
+ padding:50px;
+  }
+}
+*/
+
+.row
+{
+  height:400px;
+  background-color: black;
+}
+.col-sm-4{
+  padding-top: 50px;
+  padding-left: 50px;
+  height:250px;
+  align-content: left;
+  background-color: white;
+}
+.caption{
+  text-align: left ;
+  font-weight: bold;
+  font-family: cursive;
+}
