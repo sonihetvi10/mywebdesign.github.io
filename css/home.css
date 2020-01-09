@@ -32,7 +32,7 @@ header {
  .secdiv
  {
  width:90%;
-height:600px;
+height:620px;
 background-size: cover;
  animation : slider 50s infinite linear;
  margin: 0 auto;
@@ -322,7 +322,7 @@ li i {
 	}
 }
 
-@media screen and (max-width: 1085px) {
+/*@media screen and (max-width: 1085px) {
   .slider {
     width: 50%;
   }
@@ -332,7 +332,7 @@ li i {
   .slider {
     width: 100%;
   }
-}
+}*/
 @media screen and (max-width: 1085px) {
   .about {
     font-size: 30px;
