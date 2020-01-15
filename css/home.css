@@ -6,7 +6,8 @@ header {
     text-align: right;
     font-size: 50px;
     padding: 0px;
-    font-family: Helvetica Narrow, sans-serif;
+    font-family: Helveti
+     Narrow, sans-serif;
     font-weight: bold;
     
   }
@@ -26,13 +27,13 @@ header {
   .maindiv{
   background-color:rgb(0,0,0,0.6);
   width:100%;
-  height:710px;
+  height:670px;
  
 }
  .secdiv
  {
  width:90%;
-height:620px;
+height:600px;
 background-size: cover;
  animation : slider 50s infinite linear;
  margin: 0 auto;
@@ -173,13 +174,13 @@ background-size: cover;
 .products{
   background-color: rgb(255,255,255,0.8);
   width: 100%;
-  height:600px;
+  height:700px;
 }
 .aboutheader
 {
   height:100px;
   width:100%;
-  background-color: rgb(255,0,0,0.7);
+  background-color: rgb(255,0,0,0.8);
 }
   
 
@@ -253,8 +254,9 @@ background-size: cover;
 ul {
 	list-style: none;
 	color:white;
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: 0.5px;
+   font-family:   Times New Roman, serif;
 }
 
 ul a {
@@ -270,7 +272,7 @@ ul a:hover {
 
 ul li {
 	margin: 10px 0;
-	height: 25px;
+	height: 35px;
 }
 
 li i {
@@ -280,7 +282,8 @@ li i {
 .social-media {
 	width: 100%;
 	color: #fff;
-	text-align: center;
+	
+  text-align: center;
 }
 
 .social-media a {
@@ -288,16 +291,15 @@ li i {
 }
 
 .social-media i {
-	height: 15px;
-	width: 15px;
-	margin: 20px 5px;
-	padding: 10px;
-	color: #fff;
-	border-radius: 50%;
-	border: 1px solid grey;
-	transition: 0.3s;
+	height: 35px;
+  width: 35px;
+  margin: 20px 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition: 0.3s;
 }
-
 .social-media i:hover {
 	background: red;
 }
@@ -322,7 +324,7 @@ li i {
 	}
 }
 
-/*@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1085px) {
   .slider {
     width: 50%;
   }
@@ -332,7 +334,7 @@ li i {
   .slider {
     width: 100%;
   }
-}*/
+}
 @media screen and (max-width: 1085px) {
   .about {
     font-size: 30px;
@@ -342,40 +344,35 @@ li i {
     font-size: 20px;
   }
 }
-/*
-@media screen and (max-width: 1085px) {
-  .secdiv {
-    width: 90%;
-    background-size: cover;
-    margin: 0 auto;
- padding:50px;
-
-
-  }
-}@media screen and (max-width: 600px) {
-  .secdiv {
-    width:70%;
-    background-size: :cover;
-    margin: 0 auto;
- padding:50px;
-  }
-}
-*/
-
-.row
-{
-  height:400px;
-  background-color: black;
-}
-.col-sm-4{
-  padding-top: 50px;
-  padding-left: 50px;
-  height:250px;
-  align-content: left;
-  background-color: white;
+.spaceii{
+  opacity: 0px;
+  height: 50px;
 }
 .caption{
-  text-align: left ;
-  font-weight: bold;
-  font-family: cursive;
+  text-align: :center;
+  font-family: Times New Roman, serif;
+}
+
+@media screen and (max-width: 1085px) {
+  .products {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+   height: 1500px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .aboutheader{
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutheader {
+    height: 200px;
+  }
 }
