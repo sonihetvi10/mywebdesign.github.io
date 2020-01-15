@@ -324,17 +324,7 @@ li i {
 	}
 }
 
-@media screen and (max-width: 1085px) {
-  .slider {
-    width: 50%;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .slider {
-    width: 100%;
-  }
-}
 @media screen and (max-width: 1085px) {
   .about {
     font-size: 30px;
