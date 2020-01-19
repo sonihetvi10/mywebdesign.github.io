@@ -68,10 +68,7 @@ background-size: cover;
   {
     background-image: url('https://github.com/sonihetvi10/mywebdesign.github.io/blob/master/9.png?raw=true');
   }
-  100%
-  {
-    background-image: url('https://github.com/sonihetvi10/mywebdesign.github.io/blob/master/10.png?raw=true');
-  }
+ 
 }
 .feature{
   background: #D6181A none repeat scroll 0 0;
